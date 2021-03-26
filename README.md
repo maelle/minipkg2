@@ -10,7 +10,10 @@ The goal of minipkg2 is to tell you what time it is.
 
 ## Installation
 
-TODO
+``` r
+# install.packages("remotes")
+remotes::install_github("maelle/minipkg2")
+```
 
 ## Example
 
@@ -19,5 +22,5 @@ This is a basic example which shows you how to solve a common problem:
 ``` r
 library(minipkg2)
 what_time()
-#> [1] "Huh! Il est maintenant 19:05!"
+#> [1] "Yippie! Il est maintenant 19:08!"
 ```
