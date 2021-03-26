@@ -19,3 +19,5 @@ Config/testthat/edition: 3
 Imports: 
     praise,
     rlang
+URL: https://github.com/maelle/minipkg2
+BugReports: https://github.com/maelle/minipkg2/issues
