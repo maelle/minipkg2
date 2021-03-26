@@ -4,7 +4,10 @@
 \alias{what_time}
 \title{Current time}
 \usage{
-what_time()
+what_time(language = "fr")
+}
+\arguments{
+\item{language}{Language either "fr" for French or "en" for English.}
 }
 \value{
 A character string with the time
