@@ -4,6 +4,8 @@
 # minipkg2
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/maelle/minipkg2/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/maelle/minipkg2/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of minipkg2 is to show what time it is.
@@ -24,7 +26,7 @@ This is a basic example which shows you how to solve a common problem:
 ``` r
 library(minipkg2)
 what_time()
-#> [1] "Hooray! Il est maintenant 14:03!"
+#> [1] "Aw! Il est maintenant 14:05!"
 what_time("en")
-#> [1] "Wow! It is 14:03 now!"
+#> [1] "Yeah! It is 14:05 now!"
 ```
