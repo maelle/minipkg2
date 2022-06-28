@@ -25,7 +25,8 @@ The goal of minipkg2 is to show what time it is.
 You can install the development version of minipkg2 like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("devtools")
+devtools::install_github("maelle/minipkg2")
 ```
 
 ## Example
